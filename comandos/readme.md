@@ -4,6 +4,7 @@ python -m venv venv
 . venv/bin/activate
 pip install django
 django-admin startproject project .
+python manage.py start app contact
 ======================================
 Configurar o git
 
@@ -15,3 +16,8 @@ git init
 git add .
 git commit -m 'Mensagem'
 git remote add origin URL_DO_GIT
+
+=================================
+ATIVAR AMBIENTE VIRTUAL 
+
+nome_da_virtualenv/Scripts/Activate
